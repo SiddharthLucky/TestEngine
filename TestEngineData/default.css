@@ -271,9 +271,9 @@ hr
 #header-wrapper
 {
 	overflow: hidden;
-	padding-top: 450px;
-	height: 150px;
-	background: url('images/header.jpg') no-repeat top center;
+	/*padding-top: 450px;*/
+	/*height: 150px;*/
+	/*background: url('images/header.jpg') no-repeat top center;*/
 	background-size: 100% 100%;
 }
 
