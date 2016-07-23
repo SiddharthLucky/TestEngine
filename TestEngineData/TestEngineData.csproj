@@ -99,6 +99,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="MasterPage.Master" />
+    <Content Include="IntroPage.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,7 +112,6 @@
     <Content Include="fonts.css" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
-    <Content Include="MasterPageData.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -127,14 +127,14 @@
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="MasterPageData.aspx.cs">
-      <DependentUpon>MasterPageData.aspx</DependentUpon>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IntroPage.aspx.cs">
+      <DependentUpon>IntroPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MasterPageData.aspx.designer.cs">
-      <DependentUpon>MasterPageData.aspx</DependentUpon>
+    <Compile Include="IntroPage.aspx.designer.cs">
+      <DependentUpon>IntroPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

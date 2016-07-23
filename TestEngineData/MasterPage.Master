@@ -38,31 +38,39 @@
 <div id="wrapper">
 	<div id="page" class="container">
 		<div id="content">
-			<div id="banner"> <img src="images/pic02.jpg" width="790" height="300" alt="" /> </div>
+			<div id="banner"> <!--Include image If needed<img src="images/pic02.jpg" width="790" height="300" alt="" />---> 
+			</div>
 			<div class="title">
-				<h2>Welcome to our website</h2>
-				<span class="byline">Phasellus nec erat sit amet nibh pellentesque congue</span> </div>
-			<p>This is <strong>Contour</strong>, a free, fully standards-compliant CSS template designed by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) </p>
+				<h2><asp:ContentPlaceHolder ID="MainHeaderPlaceHolder" runat="server">
+
+					</asp:ContentPlaceHolder></h2>
+				<span class="byline">By Line Text if needed</span> </div>
+			<p></p>
 			<div id="two-column">
 				<div id="tbox1">
 					<div class="title">
-						<h2>Fusce fringilla</h2>
+						<h2>
+                            <asp:ContentPlaceHolder ID="CenterPlcaeHolder1" runat="server">
+
+					        </asp:ContentPlaceHolder>
+						</h2>
 					</div>
 					<ul class="style2">
-						<li><a href="#">Semper mod quis eget mi dolore</a></li>
-						<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-						<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-						<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-						<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-						<li><a href="#">Consequat etiam lorem phasellus</a></li>
+						<asp:ContentPlaceHolder ID="CenterPlaceHolderList" runat="server">
+
+					    </asp:ContentPlaceHolder>
 					</ul>
 					<a href="#" class="icon icon-file-alt button">Read More</a> </div>
 				<div id="tbox2">
 					<div class="title">
-						<h2>Maecenas luctus</h2>
+						<h2>
+                            <asp:ContentPlaceHolder ID="CenterPlaceHolder2" runat="server">
+
+					        </asp:ContentPlaceHolder>
+						</h2>
 					</div>
-					<p><img src="images/pic03.jpg" width="370" height="170" alt="" /></p>
-					<p>Etiam non felis. Donec ut ante. In id eros. Sed dictum rutrum massa eu volutpat. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
+					<p><!--Use Image if necessary<img src="images/pic03.jpg" width="370" height="170" alt="" />---></p>
+					<p> </p>
 					<a href="#" class="icon icon-ok button">Read More</a>
 				</div>
 			</div>
@@ -70,36 +78,43 @@
 		<div id="sidebar">
 			<div class="box1">
 				<div class="title">
-					<h2>Maecenas luctus</h2>
+					<h2>
+                        <asp:ContentPlaceHolder ID="TitlePlaceHolder" runat="server">
+
+					    </asp:ContentPlaceHolder>
+					</h2>
 				</div>
-				<p>Etiam non felis. Donec ut ante. In id eros. Sed dictum rutrum massa eu volutpat. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie dictum rutrum massa.</p>
+				<asp:ContentPlaceHolder ID="TitleParaHolder" runat="server">
+
+					    </asp:ContentPlaceHolder>
 				<a href="#" class="icon icon-ok button">Read More</a>
 			</div>
 			<div class="box2">
 				<div class="title">
-					<h2>Mauris vulputate</h2>
+					<h2>
+                        <asp:ContentPlaceHolder ID="Title2PlaceHolder" runat="server">
+
+					    </asp:ContentPlaceHolder>
+					</h2>
 				</div>
 				<ul class="style2">
-					<li><a href="#">Semper mod quis eget mi dolore</a></li>
-					<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-					<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-					<li><a href="#">Consequat etiam lorem phasellus</a></li>
-					<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-					<li><a href="#">Semper mod quisturpis nisi</a></li>
+                    <asp:ContentPlaceHolder ID="Title2ListHolder" runat="server">
+
+					</asp:ContentPlaceHolder>
 				</ul>
 			</div>
 			<div class="box3">
 				<div class="title">
-					<h2>Integer gravida</h2>
+					<h2>
+                        <asp:ContentPlaceHolder ID="Title3PlaceHolder" runat="server">
+
+					    </asp:ContentPlaceHolder>
+					</h2>
 				</div>
 				<ul class="style2">
-					<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-					<li><a href="#">Ornare in hendrerit in lectus</a></li>
-					<li><a href="#">Semper mod quis eget mi dolore</a></li>
-					<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-					<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-					<li><a href="#">Semper mod quisturpis nisi</a></li>
-					<li><a href="#">Consequat etiam lorem phasellus</a></li>
+					<asp:ContentPlaceHolder ID="Title3ListHolder" runat="server">
+
+				    </asp:ContentPlaceHolder>
 				</ul>
 			</div>
 		</div>
@@ -108,13 +123,13 @@
 <div id="portfolio-wrapper">
 	<div id="portfolio" class="container">
 		<div class="title">
-			<h2>Praesent scelerisque scelerisque</h2>
+			<h2>Footer if necessary</h2>
 		</div>
-		<p class="description">In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Praesent pellentesque facilisis elit. Class aptent taciti sociosqu torquent per conubia nostra inceptos hymenaeos.</p>
+		<p class="description">Description area</p>
 	</div>
 </div>
 <div id="copyright" class="container">
-	<p>Copyright (c) 2013 Sitename.com. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
+	<p>Copyright disclaimer area</p>
 </div>
     </form>
 </body>
