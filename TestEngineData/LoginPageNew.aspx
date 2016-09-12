@@ -2,12 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainHeaderPlaceHolder" runat="server">
     <p style="font-size: medium; text-decoration: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; font-family: Arial; color: #003366;">
             username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="username" runat="server"></asp:TextBox>
+            <asp:TextBox ID="username" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox>
 &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="username" ErrorMessage="*enter a proper username " ForeColor="Red"></asp:RequiredFieldValidator>
         </p>
         <p style="font-size: medium; font-weight: normal; font-family: Arial; font-style: normal; font-variant: normal; text-transform: none; text-decoration: none; color: #003366">
             password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBoxpassword" runat="server" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="TextBoxpassword" runat="server" TextMode="Password" CssClass="textrounded" class="form-control"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBoxpassword" ErrorMessage="* enter a proper password" ForeColor="#CC0000"></asp:RequiredFieldValidator>
         </p>
         <p>
@@ -15,28 +15,25 @@
         </p>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CenterPlcaeHolder1" runat="server">
-    <div>
-    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-    <asp:TextBox ID="TextBox2" runat="server" Text="Name"></asp:TextBox>
+    <div id="register-button">   
+        name<asp:TextBox ID="TextBox2" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
 
-    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        username<asp:TextBox ID="TextBox3" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
 
-    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        student id<asp:TextBox ID="TextBox4" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
 
-    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+        institution<asp:TextBox ID="TextBox5" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
 
-    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+        email id<asp:TextBox ID="TextBox7" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
 
-    <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+        password<asp:TextBox ID="TextBox8" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
 
-    <asp:TextBox ID="TextBox8" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox>
+        confirm password<asp:TextBox ID="TextBox9" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox>
 
-    <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+   </div>
 
-   
+    <asp:Button ID="Button2" runat="server" Text="Register" BackColor="#003366" ForeColor="#FFFFCC" />
 
-    <asp:Button ID="Button2" runat="server" Text="Button" />
-</div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="CenterPlaceHolderList" runat="server">
 </asp:Content>
