@@ -5,11 +5,12 @@
             <asp:TextBox ID="username" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="username" ErrorMessage="*enter a proper username " ForeColor="Red"></asp:RequiredFieldValidator>
         <p style="font-size: medium; font-weight: normal; font-family: Arial; font-style: normal; font-variant: normal; text-transform: none; text-decoration: none; color: #003366">
-            password<p />
+            Password<p />
             <asp:TextBox ID="TextBoxpassword" runat="server" TextMode="Password" CssClass="textrounded" class="form-control"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBoxpassword" ErrorMessage="* enter a proper password" ForeColor="#CC0000"></asp:RequiredFieldValidator>
         <p>
             <asp:Button ID="Button1" runat="server" Text="login" CssClass="icon icon-file-alt button" OnClick="Button1_Click" PostBackUrl="~/IntroPage.aspx" />
+            <asp:Button ID="Button3" runat="server" Text="New Registration" CssClass="icon icon-file-alt button" OnClick="Button3_Click"/>
         </p>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CenterPlcaeHolder1" runat="server">
