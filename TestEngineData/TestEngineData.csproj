@@ -118,6 +118,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="TestWebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +160,13 @@
     </Compile>
     <Compile Include="careers.aspx.designer.cs">
       <DependentUpon>careers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestWebForm.aspx.cs">
+      <DependentUpon>TestWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestWebForm.aspx.designer.cs">
+      <DependentUpon>TestWebForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
