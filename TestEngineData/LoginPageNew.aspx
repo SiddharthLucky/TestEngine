@@ -15,7 +15,7 @@
         </p>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CenterPlcaeHolder1" runat="server">
-    <div id="register-button">   
+    <div id="register-button class="icon icon-ok button">   
         name<asp:TextBox ID="TextBox2" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
 
         username<asp:TextBox ID="TextBox3" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
