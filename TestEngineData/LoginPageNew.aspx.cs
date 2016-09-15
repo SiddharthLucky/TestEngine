@@ -11,7 +11,7 @@ namespace TestEngineData
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ContentPlaceHolder cph = (ContentPlaceHolder)this.Page.Master.FindControl("CenterPlacaeHolder1");
+            ContentPlaceHolder cph = (ContentPlaceHolder)this.Page.Master.FindControl("CenterPlaceHolder1");
             cph.Visible = false;
         }
 
@@ -21,7 +21,7 @@ namespace TestEngineData
         }
         protected void Button3_Click(object sender, EventArgs e)
         {
-            ContentPlaceHolder cph = (ContentPlaceHolder)this.Page.Master.FindControl("CenterPlacaeHolder1");
+            ContentPlaceHolder cph = (ContentPlaceHolder)this.Page.Master.FindControl("CenterPlaceHolder1");
             cph.Visible = true;
         }
     }
