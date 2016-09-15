@@ -31,13 +31,13 @@ namespace TestEngineData {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder MainHeaderPlaceHolder;
         
         /// <summary>
-        /// CenterPlcaeHolder1 control.
+        /// CenterPlaceHolder1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder CenterPlcaeHolder1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder CenterPlaceHolder1;
         
         /// <summary>
         /// CenterPlaceHolderList control.
