@@ -14,8 +14,8 @@
             <asp:Button ID="Button3" runat="server" Text="New Registration" CssClass="icon icon-file-alt button" OnClick="Button3_Click"/>
         </p>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="CenterPlcaeHolder1" runat="server">
-    <div>
+<asp:Content ID="Content2" ContentPlaceHolderID="CenterPlacaeHolder1" runat="server">
+
         <p style="font-size: medium; font-weight: normal; font-family: Arial; font-style: normal; font-variant: normal; text-transform: none; text-decoration: none; color: #003366">Name<p /><asp:TextBox ID="TextBox2" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
 
         <p style="font-size: medium; font-weight: normal; font-family: Arial; font-style: normal; font-variant: normal; text-transform: none; text-decoration: none; color: #003366">Username<p /><asp:TextBox ID="TextBox3" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox><br/>
@@ -31,9 +31,6 @@
         <p style="font-size: medium; font-weight: normal; font-family: Arial; font-style: normal; font-variant: normal; text-transform: none; text-decoration: none; color: #003366">Confirm Password<p /><asp:TextBox ID="TextBox9" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox>
 
         <asp:Button ID="Button2" runat="server" Text="Register" class="icon icon-ok button" />   
-   </div>
-
-    
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="CenterPlaceHolderList" runat="server">
