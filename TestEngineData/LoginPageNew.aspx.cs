@@ -11,18 +11,22 @@ namespace TestEngineData
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ContentPlaceHolder cph = (ContentPlaceHolder)this.Page.Master.FindControl("CenterPlaceHolder1");
-            cph.Visible = false;
+            ContentPlaceHolder regData = (ContentPlaceHolder)this.Page.Master.FindControl("CenterPlaceHolder1");
+            regData.Visible = false;
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Server.Transfer("LoginPage.aspx");
+            Server.Transfer("LoginPageNew.aspx");
         }
         protected void Button3_Click(object sender, EventArgs e)
         {
-            ContentPlaceHolder cph = (ContentPlaceHolder)this.Page.Master.FindControl("CenterPlaceHolder1");
-            cph.Visible = true;
+            ContentPlaceHolder regData = (ContentPlaceHolder)this.Page.Master.FindControl("CenterPlaceHolder1");
+            regData.Visible = true;
+            ContentPlaceHolder LogData = (ContentPlaceHolder)this.Page.Master.FindControl("MainHeaderPlaceHolder");
+            LogData.Visible = false;
+
         }
     }
 }

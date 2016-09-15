@@ -4,7 +4,7 @@
     <p style="font-size: medium; text-decoration: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; font-family: Arial; color: #003366;">
             Username<p />
             <asp:TextBox ID="username" runat="server" CssClass="textrounded" class="form-control"></asp:TextBox>
-        <p style="font-size: medium; font-weight: normal; font-family: Arial; font-style: normal; font-variant: normal; text-transform: none; text-decoration: none; color: #003366">
+    <p style="font-size: medium; font-weight: normal; font-family: Arial; font-style: normal; font-variant: normal; text-transform: none; text-decoration: none; color: #003366">
             Password<p />
             <asp:TextBox ID="TextBoxpassword" runat="server" TextMode="Password" CssClass="textrounded" class="form-control"></asp:TextBox>
             <p>
